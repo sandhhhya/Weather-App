@@ -1,0 +1,88 @@
+#parent{ 
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #f5e6ee, #ecd0e7, #ddbde5, #c6abe6, #a49de9, #9896ec, #8b8fee, #7c88f1, #9481f1, #ad78ed, #c46de6, #da60dc);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+#child{
+    width: 400px;
+    height: 600px;
+    border-radius: 10%;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* box-shadow: 10px 10px rgba(255, 255, 255, 0.1); */
+
+}
+h4{
+    margin-top: 10px;
+    color: #f5e6ee;
+}
+input{
+   width: 200px;
+    outline:none;
+    border:none;
+    margin-left: 10px;
+    background: none;
+    border-bottom: 3px solid white;
+}
+label{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+button{
+    width: 200px;
+    position: relative;
+    top: 20px;
+    /* left: 0px; */
+    /* right: 115px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+
+.location{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+    /* font-weight: 400; */
+
+}
+.fa-street-view{
+    animation: rotates 3s linear infinite alternate;
+}
+@keyframes rotates{
+    from{
+        transform: translateX(-0.5rem);
+    }
+    to{
+       transform: translateX(0.5rem);
+    }
+}
+h6{
+    font-weight: bold;
+}
+.temp-min-max{
+    text-align: center;
+    margin-top: 0.3rem;
+    font-weight: 1000;
+    font-size: 1.2rem;
+    color:#57606f;
+
+}
+.temp{
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+} 
